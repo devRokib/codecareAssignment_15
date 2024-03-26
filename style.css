@@ -1,0 +1,32 @@
+.header{
+    background: #1e96fc !important;
+    color: #fff !important;
+}
+nav a img {
+	max-width: 100% !important;
+	width: 45px;
+    /* color: #fff !important; */
+}
+.custom_menu li a{
+    color: #fff !important;
+    font-size: 18px;
+}
+.custom_sub_menu li a{
+    color: #000 !important;
+}
+
+.bannerSection{
+    background: url(./images/1687.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px 0;
+}
+.cardSection{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.caruselButton{
+    color: #fff !important;
+}
